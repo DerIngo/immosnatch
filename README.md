@@ -1,2 +1,2 @@
 # immosnatch
-Repository for deveopting immosnatch.de
+Repository for developing immosnatch.de
