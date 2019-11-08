@@ -1,0 +1,19 @@
+{
+  "name": "immosnatch",
+  "version": "1.0.0",
+  "description": "Repository for developing immosnatch.de",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerIngo/immosnatch.git"
+  },
+  "author": "DerIngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerIngo/immosnatch/issues"
+  },
+  "homepage": "https://github.com/DerIngo/immosnatch#readme"
+}
