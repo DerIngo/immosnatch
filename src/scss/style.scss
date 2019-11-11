@@ -3,13 +3,17 @@ body {
 }
 
 #hero {
-  background: url("/assets/bg.jpg") no-repeat;
+  background: url("/assets/architecture-22039_1920.jpg") no-repeat;
   background-size: cover;
   background-position: 0 60%;
 }
 
 .hero-img {
-  width: 80%;
+  width: 400px;
+  height: 300px;
+  background: url("/assets/keys-1317391_640.jpg");
+  mix-blend-mode: multiply;
+  border: 0;
 }
 
 .feature-wrapper {
@@ -17,18 +21,23 @@ body {
 }
 
 #join-container {
-  background: url("/assets/screen1.jpg") no-repeat;
+  background: url("/assets/staging-2816464_640.jpg") no-repeat;
   background-size: cover;
 
   h2 {
     letter-spacing: 4px;
     font-weight: bold;
+    background-image: linear-gradient(to right, black, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   h4 {
-    color: grey;
+    color: gray;
   }
   .form-control {
-    background: #111111;
+    background: transparentize($color: #000000, $amount: 0.3);
+    color: white;
     border: 3px solid #2f2f2f;
     padding: 10px;
     height: inherit;
@@ -43,7 +52,7 @@ body {
 
 .navbar {
   width: 100%;
-  background: none !important;
+  background: rgba(0, 0, 0, 0.3) !important;
 
   @media (max-width: 34em) {
     background: black !important;
@@ -73,4 +82,12 @@ body {
       }
     }
   }
+}
+
+.footer {
+  background: transparentize($color: #000000, $amount: 0.6);
+}
+
+.social {
+  background-color: white;
 }

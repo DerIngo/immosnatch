@@ -1,19 +1,19 @@
-/* import only the necessary Bootstrap files */
+/* 1. import only the necessary Bootstrap files */
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 
-/* -------begin customization-------- */
-$green: #00cc55;
+/* 2. -------begin customization-------- */
+//$green: #00cc55;
 
-$primary: $green;
+$primary: #71da2c;
 
 /* change the primary theme color, and add a new theme color */
 $theme-colors: (
-  primary: $green,
+  primary: $primary,
   purple: $purple // $purple is defined in _variables.scss
 );
 
-$link-color: $green;
+//$link-color: $green;
 $body-bg: #1a1b1d;
 $font-family-sons-serif: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
 
@@ -46,5 +46,19 @@ $spacers: map-merge(
 
 /* -------end customization-------- */
 
-/* finally, import Bootstrap to set the changes! */
+/* 3. import Bootstrap to set the changes! */
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* 4. add @mixin or @extend customizations here */
+
+/* create new custom classes from existing classes */
+//.row-dark {
+//  @extend .row;
+//  background-color: #333333;
+//  color: #ffffff;
+//}
+
+/* use @mixins */
+//.btn-custom {
+//  @include button-variant(red, white, red, red);
+//}
