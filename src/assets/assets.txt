@@ -7,8 +7,5 @@ https://pixabay.com/photos/staging-real-estate-tulips-white-2816464/
 keys-1317391_640.jpg
 https://pixabay.com/illustrations/keys-hands-own-buy-sell-home-1317391/
 
-
-bg.jpg
-overlay.png
-screen1.jpg
-https://quinscape.udemy.com/course/learn-bootstrap-4-by-example/learn/
+icons8-immobilie-verkaufen-16.png
+<a target="_blank" href="/icons/set/sell-property">Immobilie verkaufen icon</a> by <a target="_blank" href="https://icons8.de">Icons8</a>
